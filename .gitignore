@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+# Playwright CLI output (may contain credentials)
+.playwright-cli/
+# Playwright CLI config: hardcodes this sandbox's local browser executable path
+.playwright/cli.config.json
